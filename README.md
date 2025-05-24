@@ -1,6 +1,3 @@
-# SNAG
-SNAG - Systems Not Always Good - A Hooking Detection Engine
-
 # SNAG: A Hooking Detection Engine
 ![Status](https://img.shields.io/badge/status-active-green) ![Language](https://img.shields.io/badge/C-Primary-blue)
 
