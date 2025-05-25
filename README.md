@@ -18,5 +18,6 @@ SNAG operates by:
 3. **Scanning export tables** to validate function addresses.
 4. **Checking function prologues for unexpected redirection (JMP instructions).**
 
-[![Watch the demo](https://raw.githubusercontent.com/sleepyG8/SNAG/main/thumbnail.jpg)](https://github.com/sleepyG8/SNAG/blob/main/snag.mp4)
+![Demo](./snag.gif)
+
 
