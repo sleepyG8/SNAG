@@ -260,9 +260,9 @@ if (importName == NULL) {
 
     BYTE hookedBytes[5];
     ReadProcessMemory(hProcess, (void*)thunkData.u1.Function, hookedBytes, 5, NULL); //reading only 5 bytes
-
+    //return Offset is actually address for now
     returnOffset = (void*)thunkData.u1.Function;
-    printf("Offset Value: 0x%p\n", (void*)returnOffset);
+    printf("Address: 0x%p\n", (void*)returnOffset);
 
 if (hookedBytes[0] == 0xE9) {  // using 0xE9 to detect a jmp (likely a hook)
     printf("Inline Hook Detected: Redirected function.\n");
